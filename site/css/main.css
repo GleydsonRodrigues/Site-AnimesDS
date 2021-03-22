@@ -1,0 +1,281 @@
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	-ms-overflow-style: scrollbar;
+	background: #202024;
+	color: rgba(255, 255, 255, 0.75);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	line-height: 1.65;
+}
+
+a {
+		
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	outline: 0;
+}
+
+a:hover {
+	color: #FFF;
+	border: none;
+}
+
+	
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0 0 1em 0;
+}
+
+
+section.special, article.special {
+	text-align: center;
+}
+
+header p {	
+	position: relative;
+	margin: 0 0 1.5em 0;
+}
+
+.tabela {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-align-items: stretch;
+	-webkit-align-items: stretch;
+	-ms-align-items: stretch;
+	align-items: stretch;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	}
+
+.tabela .caixa {
+	margin: 0 1em 2em 1em;
+	width: 30%;
+}
+
+.caixa {
+	border-radius: 4px;
+	margin-bottom: 2em;
+	background: #2c2c32;
+	text-align: center;
+}
+
+
+.image {
+	border-radius: 4px;
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+	
+.image img {
+	border-radius: 4px;
+	display: block;
+}
+
+.image.left, .image.right {
+	max-width: 40%;
+}
+
+.image.left img, .image.right img {
+	width: 100%;
+}
+
+.image.left {
+	float: left;
+	padding: 0 1.5em 1em 0;
+	top: 0.25em;
+}
+
+.image.right {
+	float: right;
+	padding: 0 0 1em 1.5em;
+	top: 0.25em;
+}
+
+.image.fit {
+	display: block;
+	margin: 0 0 2em 0;
+	width: 100%;
+}
+
+.image.fit img {
+	width: 100%;
+}
+
+.image.main {
+	display: block;
+	margin: 0 0 3em 0;
+	width: 100%;
+}
+
+.image.main img {
+	width: 100%;
+}
+
+.button {	
+	background-color: #70c7be;
+	border-radius: 4px;
+	border: 0;
+	color: #000000 !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	height: 2.85em;
+	line-height: 2.95em;
+	padding: 0 1.5em;
+	text-align: center;
+	text-decoration: none;
+}
+		
+.button:hover {
+	background-color: #82cec6;
+}
+
+.button:active {
+	background-color: #5ec0b6;
+}
+
+		
+.button.icon {
+	padding-left: 1.35em;
+}
+
+.button.icon:before {
+	margin-right: 0.5em;
+}
+
+.button.fit {
+	display: block;
+	margin: 0 0 1em 0;
+	width: 100%;
+}
+
+#papelParede {
+	padding: 180px;
+	min-height: 70vh;
+	background-image: url(../images/papel.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+#papelParede {
+	
+	position: relative;
+	z-index: 2;
+}
+
+#papelParede h1 {
+	color: #fff;
+	font-size: 5em;
+	font-weight: 400;
+	font-family: 'Passion One', cursive;
+	margin: 0;
+}
+
+#papelParede p {
+	color: rgba(255, 255, 255, 0.85);
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+	
+#main {
+	padding: 4em 0 2em 0;
+}
+
+#main .inner {
+	width: 90%;
+	max-width: 80em;
+	margin: 0 auto;
+}
+
+#footer {
+	padding-top: 35px;
+	padding-bottom: 15px;
+	background-color: #17171b;
+}
+textarea {
+	width: 500px;
+	height: 200px;
+}
+.texto h1 p {
+	position: relative;
+	left: 0px;
+}
+
+.menu-caixa{
+	height: 120px;
+	position: relative;
+	background-color: #17171b;
+	margin-bottom: 10px;
+}
+.logo{
+	max-width: 150px;
+	height: auto;
+	position: absolute;
+	left: 25px;
+	top: 10px;
+}
+.d{
+	position: absolute;
+	right: 30px;
+	top: 35px;
+}
+.c{
+	position: absolute;
+	right: 70px;
+	top: 35px;
+	margin-right: 15px;
+}
+.b{
+	position: absolute;
+	right: 110px;
+	top: 35px;
+	margin-right: 20px;
+}
+.a{
+	position: absolute;
+	right: 150px;
+	top: 37px;
+	margin-right: 30px;
+}
+.Grade{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0px;
+	border : solid;
+	position: relative;
+}
+.cadastro-novo{
+	
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.login{
+	position: absolute;
+	right: 20px;
+	
+}
+	
