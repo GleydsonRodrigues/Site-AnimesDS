@@ -25,7 +25,22 @@
 				<div id="main">
 					<div class="inner">
 						<div class="tabela">
+							<?php
+							
+							for($i = 0; $i <= 10; $i++){
+								echo'
+								<div class="caixa">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/naruto.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Naruto</h3>
+									<p>Naruto é um jovem órfão habitante da Vila da Folha que sonha se tornar o quinto Hokage, o maior guerreiro e governante da vila. ... Seu pai, o quarto Hokage, aprisionou a raposa no próprio filho quando a raposa ameaçava...</p>
+									<a href="naruto.html" class="button fit">Assistir</a>
+								</div>
+							</div>';
 
+							}
+							
+							?>
 							<div class="caixa">
 								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/naruto.jpg" alt="" /></a>
 								<div class="inner">
