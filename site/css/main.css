@@ -278,4 +278,35 @@ textarea {
 	right: 20px;
 	
 }
-	
+
+/* Cadastro de animes */
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+.img-demostracao{
+	width: 500px;
+}
+.buttonCadastro {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	border-radius: 12px;
+}
+.buttonCadastro:hover{
+	color: #202024;
+}
+.form-elements{
+	padding: 10px;
+	display: block;
+	border-radius: 5px;
+	border: 0;
+	margin-bottom: 10px;
+	width: 50%;
+}

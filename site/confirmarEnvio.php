@@ -26,21 +26,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>confirmar</title>
 </head>
 <body>
-    <?php
-    
-        echo "<h1>$name</h1>
-        <p>$sinopse</p>
-        <img src='$imagem'>
-        ";
+    <div class="container">
+        <?php
         
-    ?>
-    <form action="" method="Post">
-        <input type="submit" value="Confirmar" name="confirmar">
-    </form>
+            echo "<h1>$name</h1>
+            <p>$sinopse</p>
+            <img src='$imagem' class='img-demostracao'>
+            ";
+            
+        ?>
+        <form action="" method="Post">
+
+            <br><input type="submit" value="Confirmar" name="confirmar" class="buttonCadastro">
+        </form>
+    </div>
     
-    <p></p>
 </body>
 </html>
